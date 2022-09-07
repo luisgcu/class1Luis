@@ -6,14 +6,13 @@ print()
 foodcost=float(input("Please enter the cost of food:  "))
 drinkcost=float(input("Please enter the cost of drink:  "))
 print()
-print("Restaurant Bill")
-print("------------------------------")
-
 costofmeal= foodcost+drinkcost
 taxamount=costofmeal*saleTax
 tipcalc=(costofmeal+taxamount)*tipAmount
 total=costofmeal+taxamount+tipcalc
 
+print("Restaurant Bill")
+print("------------------------------")
 print(f'Cost of Meal:  $ {costofmeal:.2f}')  
 print(f'Tax Amount:    $ {taxamount:.2f}')  
 print(f'Tip Amount:    $ {tipcalc:.2f}')  
