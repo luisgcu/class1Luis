@@ -1,6 +1,6 @@
 saleTax=0.075   #Tax in florida
 tipAmount=0.18  #Tip 18%
-import math
+print()
 print("Thanks for using the restaurant generator by Luis")
 print()
 foodcost=float(input("Please enter the cost of food:  "))
