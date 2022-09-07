@@ -11,7 +11,7 @@ print("------------------------------")
 
 costofmeal= foodcost+drinkcost
 taxamount=costofmeal*saleTax
-tipcalc=costofmeal*tipAmount
+tipcalc=(costofmeal+taxamount)*tipAmount
 total=costofmeal+taxamount+tipcalc
 
 print(f'Cost of Meal:  $ {costofmeal:.2f}')  
